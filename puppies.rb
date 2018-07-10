@@ -31,9 +31,9 @@ less_puppies
 def some_puppies
   x=3
   y=7
-  if x<=.5y
+  if x<= .5y
     puts "Well done, Rachel!"
-  else x>.5y
+  else x> .5y
     puts "No more puppies!"
   end
 end
