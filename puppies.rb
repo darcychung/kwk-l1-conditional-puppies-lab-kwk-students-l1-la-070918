@@ -50,7 +50,12 @@ def new_animal
     puts "No more puppies!"
     elsif c!=0 
     puts "No more cats!"
-    elsif p=0 && c=0 
+    elsif p=0 || c=0 
     puts "Well done, Rachel!"
-    
+  else p=1 && c=1 
+    puts "Slow down, Rachel!"
+  end
+end
+new_animal
+
     
