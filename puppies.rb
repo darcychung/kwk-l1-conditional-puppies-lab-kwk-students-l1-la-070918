@@ -14,7 +14,7 @@ no_puppies
 def less_puppies
   x=2 
   if x<3
-    puts "Well done, Rachel!"
+    puts "Good job, Rachel!"
   elsif x == 3
   puts "Slow down, Rachel!"
 else x>3
@@ -32,7 +32,7 @@ def some_puppies
   x=3
   y=7
   if x<= 3.5
-    puts "Well done, Rachel!"
+    puts "Good job, Rachel!"
   else x> 3.5
     puts "No more puppies!"
   end
@@ -44,15 +44,9 @@ some_puppies
 def new_animal
   p=5
   c=3
-  if p!=0 && c!=0 
-    puts "No more puppies and cats!"
-  if p!=0 
-    puts "No more puppies!"
-    elsif c!=0 
-    puts "No more cats!"
-    elsif p=0 || c=0 
-    puts "Well done, Rachel!"
-  else p=1 && c=1 
+    if p==0 || c==0 
+    puts "Good job, Rachel!"
+  else p=>1 && c=>1 
     puts "Slow down, Rachel!"
   end
 end
