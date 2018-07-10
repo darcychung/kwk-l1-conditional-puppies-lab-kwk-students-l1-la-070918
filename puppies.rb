@@ -44,7 +44,7 @@ some_puppies
 def new_animal
   x=5
   y=3
-  if x=>1 && y=>1 
+  if x>=1 && y>=1 
     puts "Slow down, Rachel!"
   else x=0 || y=0 
     puts "Good job, Rachel!"
